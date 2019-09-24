@@ -87,7 +87,9 @@
               "src/assets"
             ],
             "styles": [
+              "../assets/styles/rivet-shell.scss",
               "src/styles.scss"
+              
             ],
             "scripts": []
           }
