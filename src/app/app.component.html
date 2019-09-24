@@ -1,9 +1,14 @@
-<app-header></app-header>
+<header class="rvt-header rvt-header--light" role="banner">
+    <app-header></app-header>
+</header>
 <main class="rvt-shell" id="main-content">
+    <div class="rvt-shell__sidebar rvt-p-all-md">
   <app-sidebar></app-sidebar>
+  </div>
   <div class="rvt-shell__stage">
       <app-content></app-content>
-      <app-footer></app-footer>
   </div>
 </main>
-
+<footer class="rvt-footer" role="contentinfo">
+    <app-footer></app-footer>
+</footer>
