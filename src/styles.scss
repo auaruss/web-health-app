@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../assets/styles/rivet-shell";
+
+app-root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+app-header,
+app-footer {
+    flex-shrink: 0;
+}
